@@ -68,6 +68,21 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 /* --------- */
 
+h1 {
+	font-family: "Merriweather";
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 40px;
+}
+
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	position: relative;
+	margin: 10px 0 ;
+}
+
 p {
 	margin: 0 0 10px 0;
 }
@@ -80,7 +95,6 @@ body {
 	text-align: justify;
 	box-sizing: border-box;
 	width: 100%;
-		
 }
 
 .container {
@@ -92,49 +106,28 @@ body {
 	padding: 0 20px 10px 20px;
 }
 
-.title {
-	font-family: "Merriweather";
-	font-size: 30px;
-	text-transform: uppercase;
-	text-align: center;
-	padding: 40px;
-}
-
 .autor {
 	text-align: right;
 	margin: 0 0 10px;
 }
 
-.img__nature {
-   float:left; /* Вирівнювання по лівому краю */
-	margin: 7px 7px 7px 0; /* Відступи навколо картинки */
-}
-
-.sub__title {
-	font-size: 24px;
-	text-transform: uppercase;
-	position: relative;
-	margin: 10px 0 ;
-}
-
-.img__nature__2 {
+.img__right {
 	float: right;
 	margin: 7px 0px 7px 7px; 
 }
 
-.img__nature__3 {
+.img__left {
 	float:left; /* Вирівнювання по лівому краю */
 	margin: 7px 7px 7px 0; /* Відступи навколо картинки */
-}
-
-.img__nature__4 {
-	float: right;
-	margin: 7px 0px 7px 7px; 
 }
 
 .autor__2 {
 	text-align: right;
 	font-style: italic;
 	margin: 0 0 10px;
-
 }
+
+
+
+
+
