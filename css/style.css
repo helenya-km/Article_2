@@ -1,0 +1,140 @@
+
+@font-face {
+	font-family: 'Merriweather';
+	src: url('/Article_2/fonts/Merriweather-Regular.woff2') format('woff2'),
+		 url('/Article_2/fonts/Merriweather-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Verdana';
+	src: url('/Article_2/fonts/Verdana-Bold.woff2') format('woff2'),
+		 url('/Article_2/fonts/Verdana-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Verdana';
+	src: url('/Article_2/fonts/Verdana.woff2') format('woff2'),
+		 url('/Article_2/fonts/Verdana.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+   -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+} 
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+/* --------- */
+
+p {
+	margin: 0 0 10px 0;
+}
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #262626 ;
+	text-align: justify;
+	box-sizing: border-box;
+	width: 100%;
+		
+}
+
+.container {
+	display: block;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #faf2f2;
+	padding: 0 20px 10px 20px;
+}
+
+.title {
+	font-family: "Merriweather";
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 40px;
+}
+
+.autor {
+	text-align: right;
+	margin: 0 0 10px;
+}
+
+.img__nature {
+   float:left; /* Вирівнювання по лівому краю */
+	margin: 7px 7px 7px 0; /* Відступи навколо картинки */
+}
+
+.sub__title {
+	font-size: 24px;
+	text-transform: uppercase;
+	position: relative;
+	margin: 10px 0 ;
+}
+
+.img__nature__2 {
+	float: right;
+	margin: 7px 0px 7px 7px; 
+}
+
+.img__nature__3 {
+	float:left; /* Вирівнювання по лівому краю */
+	margin: 7px 7px 7px 0; /* Відступи навколо картинки */
+}
+
+.img__nature__4 {
+	float: right;
+	margin: 7px 0px 7px 7px; 
+}
+
+.autor__2 {
+	text-align: right;
+	font-style: italic;
+	margin: 0 0 10px;
+
+}
